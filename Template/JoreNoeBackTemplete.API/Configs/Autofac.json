@@ -1,0 +1,8 @@
+{
+  "modules": [
+    { "type": "JoreNoeBackTemplete.Repository.RepositoryModule,JoreNoeBackTemplete.Repository" },
+    { "type": "JoreNoeBackTemplete.API.APIModule,JoreNoeBackTemplete.API" },
+    { "type": "JoreNoeBackTemplete.DomainService.DomainServiceModule,JoreNoeBackTemplete.DomainService" }
+    //{ "type": "JoreNoe.Modules.JoreNoeModule,JoreNoe" }
+  ]
+}

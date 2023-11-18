@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UserSecretsId>7f47874f-b772-4a44-b99c-403754b906fa</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<BaseOutputPath>bin\Debug\net5.0</BaseOutputPath>
+		<DocumentationFile>bin\Debug\net5.0\JoreNoeBackTemplete.API.xml</DocumentationFile>
+
+ 	<!-- <PackageType>Template</PackageType>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageId>JoreNoe.Utility.Templates</PackageId>
+    <Title>JoreNoe Templates</Title>
+    <Authors>JoreNoe</Authors>
+    <Description>Templates to use when creating an application for JoreNoe Template.</Description>
+    <PackageTags>dotnet-new;templates;contoso</PackageTags>
+    <TargetFramework>net5.0</TargetFramework>
+
+		<IncludeContentInPack>true</IncludeContentInPack>
+    	<IncludeBuildOutput>false</IncludeBuildOutput>
+    	<ContentTargetFolders>content</ContentTargetFolders> -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Remove="C:\Users\Administrator\.nuget\packages\jorenoe\6.1.5\contentFiles\any\netcoreapp3.1\JoreNoe.ico" />
+		<!-- <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    	<Compile Remove="**\*" /> -->
+	</ItemGroup>
+	
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="5.1.4" />
+		<PackageReference Include="Autofac.Configuration" Version="5.1.0" />
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
+		<PackageReference Include="Exceptionless.AspNetCore" Version="4.6.2" />
+		<PackageReference Include="JoreNoe" Version="6.6.8" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\JoreNoeBackTemplete.DomainService\JoreNoeBackTemplete.DomainService.csproj" />
+		<ProjectReference Include="..\JoreNoeBackTemplete.Domain\JoreNoeBackTemplete.Domain.csproj" />
+		<ProjectReference Include="..\JoreNoeBackTemplete.OAL\JoreNoeBackTemplete.OAL.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Update="appsettings.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="Configs\Autofac.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="Configs\Exceptionless.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="Configs\Redis.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties />
+		</VisualStudio>
+	</ProjectExtensions>
+
+</Project>
+
+
+

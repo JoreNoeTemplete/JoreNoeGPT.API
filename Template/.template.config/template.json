@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "JoreNoe",
+    "classifications": ["JoreNoe/API/Template"],
+    "identity":"JoreNoeBackTemplete",
+    "name": "JoreNoeBackTemplete",
+    "description": "JoreNoe API 模板 NetCore5.0",
+    "preferNameDirectory":true,
+    "shortName":"JoreNoeAPITemplate",
+    "sourceName": "JoreNoeBackTemplete",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    }
+  }

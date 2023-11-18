@@ -1,0 +1,9 @@
+{
+  //����
+  //"RedisConnection": "192.168.0.104:6379,password=redis123456,connectTimeout=1000,connectRetry=1,syncTimeout=10000",
+  //���� ,�����ϵľ��� ��Щ  �ӳ�
+  //"RedisConnection": "ngrok2.xiaomiqiu.cn:24409,password=redis123456,connectTimeout=1000,connectRetry=1,syncTimeout=10000"
+  //"RedisConnection": "192.168.0.104:6379,password=redis123456,abortConnect=false"
+  //"RedisConnection": "127.0.0.1:6379,password=redis123456,abortConnect=false"
+  "RedisConnection": "182.61.5.163:6379,password=redis123456,abortConnect=false"
+}

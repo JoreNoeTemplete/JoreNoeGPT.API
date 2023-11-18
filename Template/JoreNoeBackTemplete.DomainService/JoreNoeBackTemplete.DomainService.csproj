@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Administrator\.nuget\packages\jorenoe\6.1.5\contentFiles\any\netcoreapp3.1\JoreNoe.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.4" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Exceptionless" Version="4.6.2" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.42" />
+    <PackageReference Include="JoreNoe" Version="6.6.8" />
+    <PackageReference Include="Quartz" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JoreNoeBackTemplete.Domain\JoreNoeBackTemplete.Domain.csproj" />
+    <ProjectReference Include="..\JoreNoeBackTemplete.OAL\JoreNoeBackTemplete.OAL.csproj" />
+    <ProjectReference Include="..\JoreNoeBackTemplete.Repository\JoreNoeBackTemplete.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

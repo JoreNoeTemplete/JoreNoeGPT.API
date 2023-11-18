@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\Administrator\.nuget\packages\jorenoe\6.1.5\contentFiles\any\netcoreapp3.1\JoreNoe.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JoreNoe" Version="6.6.8" />
+  </ItemGroup>
+
+</Project>

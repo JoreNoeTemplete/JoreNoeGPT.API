@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoreNoeBackTemplete.API", "JoreNoeBackTemplete.API\JoreNoeBackTemplete.API.csproj", "{D93D8FEC-080A-44EE-A7B3-094A2589FBEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoreNoeBackTemplete.Domain", "JoreNoeBackTemplete.Domain\JoreNoeBackTemplete.Domain.csproj", "{CDFDA227-0800-40AB-A898-60FF27A673CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoreNoeBackTemplete.DomainService", "JoreNoeBackTemplete.DomainService\JoreNoeBackTemplete.DomainService.csproj", "{C84E100E-E641-46FE-B441-6C1DF763FE85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoreNoeBackTemplete.OAL", "JoreNoeBackTemplete.OAL\JoreNoeBackTemplete.OAL.csproj", "{D22F2502-A288-4F81-9684-9B9889AAC42D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoreNoeBackTemplete.Repository", "JoreNoeBackTemplete.Repository\JoreNoeBackTemplete.Repository.csproj", "{64F20705-96A6-4CC6-A1AD-4F023123BA1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D93D8FEC-080A-44EE-A7B3-094A2589FBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93D8FEC-080A-44EE-A7B3-094A2589FBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93D8FEC-080A-44EE-A7B3-094A2589FBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93D8FEC-080A-44EE-A7B3-094A2589FBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFDA227-0800-40AB-A898-60FF27A673CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFDA227-0800-40AB-A898-60FF27A673CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFDA227-0800-40AB-A898-60FF27A673CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFDA227-0800-40AB-A898-60FF27A673CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84E100E-E641-46FE-B441-6C1DF763FE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84E100E-E641-46FE-B441-6C1DF763FE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84E100E-E641-46FE-B441-6C1DF763FE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84E100E-E641-46FE-B441-6C1DF763FE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22F2502-A288-4F81-9684-9B9889AAC42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22F2502-A288-4F81-9684-9B9889AAC42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22F2502-A288-4F81-9684-9B9889AAC42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22F2502-A288-4F81-9684-9B9889AAC42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F20705-96A6-4CC6-A1AD-4F023123BA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F20705-96A6-4CC6-A1AD-4F023123BA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F20705-96A6-4CC6-A1AD-4F023123BA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F20705-96A6-4CC6-A1AD-4F023123BA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE7F166C-2235-41CB-930A-EAEFA9C52E72}
+	EndGlobalSection
+EndGlobal
